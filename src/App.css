@@ -1,0 +1,69 @@
+.app {
+  width: 100%;
+  height: 100vh;
+  background-color: #e8e8e8;
+  overflow: hidden;
+}
+.form {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 8px;
+  background-color: white;
+  width: 50%;
+  height: 80%;
+  padding: 10px;
+  overflow-y: auto;
+  display: grid;
+  place-items: center;
+  margin: 10px auto;
+}
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+}
+
+.input-field {
+  width: 100% !important;
+}
+
+.input-with-label {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+span {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 10px;
+  width: 80px;
+}
+
+.row-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 15px 0;
+}
+.input-with-label-row {
+  display: flex;
+  align-items: center;
+  width: 48%;
+}
+.submit-button {
+  margin-top: 10px;
+}
+
+.textarea {
+  min-height: 50px;
+  max-height: 80px;
+}
+
+.alert-wrapper {
+  height: 50px;
+}
+i {
+  color: red;
+}
