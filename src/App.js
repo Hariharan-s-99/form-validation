@@ -89,9 +89,9 @@ const App = () => {
             <div className="input-with-label-row">
               <span>Mobile</span>
               <FormControl
-                placeholder="mobile number"
+                type="number"
+                placeholder="mobile"
                 className="input-field"
-                type="tel"
                 value={data.mobile}
                 onChange={(e) => updateFieldValue(e, "mobile")}
               />
